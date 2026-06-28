@@ -1,0 +1,21 @@
+export type Product = {
+  id: string;
+  sku: string;
+  brand: string | null;
+  category: string | null;
+  size: string | null;
+  color: string | null;
+  material: string | null;
+  condition: string | null;
+  status: string | null;
+  purchase_price: number | null;
+  sale_price: number | null;
+  target_country: string | null;
+  sales_channel: string | null;
+  designer_level: string | null;
+  authenticity_status: string | null;
+  rarity_level: string | null;
+  vintage_period: string | null;
+  notes: string | null;
+  created_at: string;
+};
